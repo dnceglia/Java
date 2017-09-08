@@ -2,10 +2,10 @@
 class Temperature {
     
     public double FahrenheitToCelsius(double fahrenheit) {
-        double temperatue = 0;
+        double temperature = 0;
         // Fahrenheit To Celsius conversion code
-        temperatue = (fahrenheit - 32)*5/9;
-        return temperatue;
+        temperature = (fahrenheit - 32) * 5 / 9;
+        return temperature;
     }
     
     public double CelsiusToFahrenheit(double celsius) {
