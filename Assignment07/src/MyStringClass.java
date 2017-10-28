@@ -9,9 +9,8 @@ public class MyStringClass {
 	
         myStr = getString();
         char[] reverseStringArray = myStr.toCharArray();
-        for (int i = reverseStringArray.length - 1; i >= 0; i--) {
-            return 
-        }
+        for (int i = reverseStringArray.length - 1; i >= 0; i--)
+        return myStr;
         
     }
     
