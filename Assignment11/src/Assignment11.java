@@ -36,7 +36,7 @@ public class Assignment11 {
         shapeArray[3] = square2;
         
         for(int x = 0; x < shapeArray.length; ++ x)
-            shapeArray[x].toString();
+            shapeArray[x].getArea();
             
     }
     
